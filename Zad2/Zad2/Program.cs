@@ -41,7 +41,7 @@ namespace CallRequestResponseService
                             new StringTable()
                             {
                                 ColumnNames = new string[] {"Recency", "Frequency", "Monetary", "Time", "Class"},
-                                Values = new string[,] {  { "2", "4", "1", "1", "2" },  { "4", "1", "2", "2", "1" },  }
+                                Values = new string[,] {  { "5", "12", "3000", "2", "1" },  { "7", "10", "1500", "48", "0" },  }
                             }
                         },
                     },
@@ -80,6 +80,7 @@ namespace CallRequestResponseService
                     Console.WriteLine(responseContent);
                 }
             }
+            Console.ReadLine();
         }
     }
 }
